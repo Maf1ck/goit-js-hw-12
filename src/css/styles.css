@@ -37,6 +37,19 @@ button{
   color: white;
   
 }
+.container {
+  display: flex;
+  /* Enables CSS flexbox */
+  justify-content: center;
+  /* Centers horizontally */
+  align-items: center;
+  /* Centers vertically */
+  /* Full height to demonstrate vertical centering */
+}
+
+.btn {
+  padding: 10px 20px;
+}
 search {
   margin: 0 auto;
   width: fit-content;
